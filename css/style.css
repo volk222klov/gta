@@ -1,0 +1,455 @@
+body {
+    background-color: rgb(47, 45, 133);
+}
+
+.name {
+    height: 195px;
+    width: 372px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.local {
+    color: gold;
+    text-decoration: none;
+}
+
+.point {
+    display: flex;
+    align-items: center;
+}
+
+.localidk {
+    font-size: 18px;
+    padding: 8px;
+    text-decoration: none;
+    color: black;
+}
+
+.all {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 8px;
+    background-color: rgb(5, 140, 173);
+    padding: 8px;
+    border-radius: 8px;
+}
+
+.idk {
+    margin-left: 14px;
+}
+
+.list {
+    list-style: none;
+    display: flex;
+    font-size: 15px;
+
+
+
+}
+
+.vehicle {
+    margin-right: 15px;
+    font-size: 15px;
+}
+
+.ik {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(134, 31, 5);
+    padding: 8px;
+    border-radius: 12px;
+    margin: 8px;
+    font-size: 22px;
+    flex-wrap: wrap;
+    color: black;
+
+}
+
+.mark {
+    background-color: rgb(47, 14, 110);
+    padding: 10px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row-reverse;
+
+}
+
+.off {
+    margin-right: 8px;
+    font-size: 22px;
+    transition: all 2000ms;
+    cursor: pointer;
+}
+
+.off:hover {
+    background-color: blue;
+    color: red;
+}
+
+.on {
+    font-size: 22px;
+    transition: all 2000ms;
+    cursor: pointer;
+}
+
+.on:hover {
+    background-color: blue;
+    color: red;
+}
+
+.buton {
+    border-radius: 8px;
+    color: rgb(222, 224, 66);
+    background-color: rgb(18, 111, 134);
+    border-color: rgb(222, 224, 62);
+    margin: 4px;
+    padding: 5px;
+}
+
+.start {
+    color: rgb(255, 15, 7);
+    font-family: cursive;
+    text-align: justify;
+    padding: 15px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 14px;
+    padding: 32px;
+    margin: 10px;
+    font-size: 24px;
+}
+
+.end {
+    color: rgb(255, 15, 7);
+    font-family: cursive;
+    background-color: rgb(0, 0, 0);
+    border-radius: 14px;
+    padding: 32px;
+    margin: 10px;
+    font-size: 24px;
+}
+
+.flecca {
+    color: rgb(255, 15, 7);
+    font-family: cursive;
+    font-size: 22px;
+
+
+
+
+}
+
+.rashkovskiy {
+    color: rgb(255, 15, 7);
+    font-size: 22px;
+    padding: 24px;
+    font-family: cursive;
+
+}
+
+.lab {
+    color: rgb(255, 15, 7);
+    font-size: 22px;
+    padding: 8px;
+    font-family: cursive;
+
+}
+
+.trevor {
+    color: rgb(255, 15, 7);
+    font-size: 22px;
+    padding: 11px;
+    font-family: cursive;
+
+}
+
+.pacific {
+    color: rgb(255, 15, 7);
+    font-size: 22px;
+    padding: 13px;
+    font-family: cursive;
+
+
+}
+
+.robe {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: black;
+    margin: 10px;
+    border-radius: 14px;
+    padding: 32px;
+    flex-direction: column;
+
+}
+
+.esc {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: black;
+    margin: 10px;
+    border-radius: 14px;
+    padding: 32px;
+    flex-direction: column;
+}
+
+
+.stels {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: black;
+    margin: 10px;
+    border-radius: 14px;
+    padding: 32px;
+    flex-direction: column;
+}
+
+.wheel {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: black;
+    margin: 10px;
+    border-radius: 14px;
+    padding: 32px;
+    flex-direction: column;
+
+}
+
+.hard {
+    display: flex;
+    align-items: center;
+    background-color: black;
+    margin: 10px;
+    border-radius: 14px;
+    padding: 32px;
+    flex-direction: column;
+}
+
+.bank {
+    border-radius: 18px;
+    padding: 14px;
+    background-color: red;
+    font-size: large;
+    font-family: 'Franklin Gothic Medium';
+    cursor: pointer;
+    color: mintcream;
+    transition: all, 1000ms;
+    border: 2px dashed peru;
+}
+
+.bank:hover {
+    background-color: blue;
+    color: yellow;
+}
+
+.gta {
+    width: 500px;
+    border-radius: 20px;
+}
+
+.container {
+    background-color: black;
+    border: 25px;
+    color: darkorange;
+    border-radius: 15px;
+    margin: 10px;
+}
+
+.dd {
+    padding: 30px;
+    font-size: 21px;
+    font-family: cursive;
+
+
+}
+
+.dd2 {
+    font-size: 21px;
+    padding: 2px;
+}
+
+.dd3 {
+    list-style: none;
+}
+
+.lose {
+    display: flex;
+    height: 205px;
+    padding: 35px;
+    color: goldenrod;
+
+}
+
+.bogdan {
+    display: flex;
+    margin: 35px;
+    padding: 19px;
+    color: goldenrod;
+
+}
+
+.dead {
+    display: flex;
+    margin: 25px;
+    padding: 16px;
+    color: goldenrod;
+}
+
+.dd6 {
+    padding: 40px;
+    font-family: cursive;
+    display: flex;
+}
+
+
+
+
+
+.dd4 {
+    margin: 20px;
+    background-color: black;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+.dd5 {
+    margin: 20px;
+    padding: 15px;
+    font-size: 30px;
+    background-color: firebrick;
+    border-radius: 14px;
+    color: black;
+    cursor: pointer;
+    transition: all, 1400ms;
+    border: 2px solid black;
+}
+
+.dd5:hover {
+    background-color: blue;
+    color: yellow;
+}
+
+.form {
+    padding: 10px;
+    background-color: black;
+    margin: 23px;
+    color: darkgreen;
+    border-radius: 14px;
+    font-family: cursive;
+}
+
+.idkkkk {
+    padding: 16px;
+    border-radius: 22px;
+    background-color: white;
+    color: black;
+    margin-bottom: 7px;
+    border: red;
+    font-family: cursive;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.infor {
+    background-color: black;
+    width: 218px;
+}
+
+.infor2 {
+    color: black;
+    background-color: brown;
+    border-radius: 32px;
+    padding: 18px;
+    cursor: pointer;
+    width: 193px;
+    margin: 16px;
+}
+
+
+.infor3 {
+    background-color: black;
+    width: 219px;
+}
+
+.gm {
+    width: 218px;
+    object-fit: cover;
+    height: 309px;
+}
+
+.gm2 {
+    width: 219px;
+    object-fit: cover;
+    height: 309px;
+}
+
+.lk {
+    text-decoration: none;
+    color: black;
+    font-family: fantasy;
+}
+
+.lk2 {
+    text-decoration: none;
+    color: black;
+    font-family: fantasy;
+}
+
+.card {
+
+    display: flex;
+    justify-content: space-around;
+    background-image: url('../img/76.png');
+    object-fit: cover;
+    padding-top: 100px;
+    flex-wrap: wrap;
+    padding-bottom: 100px;
+
+}
+
+.footer {
+    padding: 10px;
+    color: azure;
+    margin-top: 22px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    border-radius: 30px;
+}
+
+.footer:hover {
+    color: blueviolet;
+    transition: all, 500ms;
+}
+
+.container-footer {
+    display: flex;
+    align-items: center;
+}
+
+.informati {
+    margin-right: 15px;
+}
+
+.inst {
+    margin-right: 7px;
+}
+
+.yt {
+    margin-left: 7px;
+}
+
+.tg {
+    margin-left: 7px;
+}

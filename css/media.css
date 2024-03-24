@@ -1,0 +1,67 @@
+@media(max-width:768px) {
+
+    h1 {
+        font-size: 13px !important;
+    }
+
+    p {
+        font-size: 15px;
+        padding: 10px !important;
+    }
+
+    button {
+        font-size: 18px !important;
+        padding: 10px !important;
+    }
+
+    .name {
+        width: 150px;
+        height: 80px;
+    }
+
+    .ik {
+        font-size: medium;
+    }
+
+    .gta {
+        width: 265px;
+
+    }
+
+    .list {
+        padding: 0px;
+
+    }
+
+    .vehicle {
+        margin-right: 15px;
+        font-size: 9px;
+    }
+
+    .localidk {
+        font-size: 9px;
+        padding: 8px;
+        text-decoration: none;
+        color: black;
+    }
+
+    .dd7 {
+        width: 190px;
+    }
+
+    .bogdan {
+        display: flex;
+        margin: 17px;
+        padding: 0px;
+        color: goldenrod;
+        flex-direction: column;
+    }
+
+    .dead {
+        display: flex;
+        margin: 0px;
+        padding: 16px;
+        color: goldenrod;
+        flex-direction: column;
+    }
+}
